@@ -1,0 +1,11 @@
+{
+  "detail-type": [
+    "EC2 Instance-launch Lifecycle Action"
+  ],
+  "source": [
+    "aws.autoscaling"
+  ],
+  "resources": [
+    "auto-scaling-group-arn"
+  ]
+}

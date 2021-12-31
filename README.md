@@ -13,6 +13,16 @@ You can invoke directly the `aws events test-event-pattern` CLI command however 
 ### Example invokations
 ```bash
 ./test-event-pattern.sh codepipeline on-pipeline-started.json pipeline-started.json
+```
 
+```bash
 ./test-event-pattern.sh codepipeline on-pipeline-deploying.json started-deploy-action.json
+```
+
+```bash
+./test-event-pattern.sh ec2-autoscaling on-pending-wait-hook.json pending-wait.json
+```
+
+```bash
+./test-event-pattern.sh ec2-autoscaling on-terminating-wait-hook.json terminating-wait.json
 ```
