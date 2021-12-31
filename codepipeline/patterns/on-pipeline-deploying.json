@@ -1,0 +1,23 @@
+{
+  "detail-type": [
+    "CodePipeline Action Execution State Change"
+  ],
+  "source": [
+    "aws.codepipeline"
+  ],
+  "resources": [
+    "arn:aws:codepipeline:us-east-1:123456789012:pipeline:myPipeline"
+  ],
+  "detail": {
+    "action": [
+      "myAction",
+      "otherDeployAction"
+    ],
+    "state": [
+      "STARTED"
+    ],
+    "type": {
+      "category": ["Deploy"]
+    }
+  }
+}
