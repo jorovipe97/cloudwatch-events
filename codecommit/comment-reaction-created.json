@@ -1,0 +1,29 @@
+{
+  "version": "0",
+  "id": "ecaad995-8f89-edc4-ba36-5e3f647d98e3",
+  "detail-type": "CodeCommit Comment Reaction Change",
+  "source": "aws.codecommit",
+  "account": "490924455933",
+  "time": "2022-01-02T22:10:07Z",
+  "region": "us-east-1",
+  "resources": [
+      "arn:aws:codecommit:us-east-1:490924455933:aws-devops-practice-server"
+  ],
+  "detail": {
+      "callerUserArn": "arn:aws:iam::490924455933:user/jose_villalobos",
+      "commentId": "dbb5fc9d-63d6-4cfc-9d05-3084528f7cfb:41b8cfe1-c5b1-4df7-94c9-a0dbcd081538",
+      "event": "commentReactionCreated",
+      "notificationBody": "A comment reaction event occurred in the following AWS CodeCommit Repository: aws-devops-practice-server. The user: arn:aws:iam::490924455933:user/jose_villalobos made a reaction :heart: to the comment with comment ID: dbb5fc9d-63d6-4cfc-9d05-3084528f7cfb:41b8cfe1-c5b1-4df7-94c9-a0dbcd081538",
+      "reactionEmojis": [
+          "❤️"
+      ],
+      "reactionShortcodes": [
+          ":heart:"
+      ],
+      "reactionUnicodes": [
+          "U+2764"
+      ],
+      "repositoryId": "3b87db72-e6a2-4cda-b0ac-7bcc1cc2fb3d",
+      "repositoryName": "aws-devops-practice-server"
+  }
+}

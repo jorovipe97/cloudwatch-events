@@ -1,0 +1,22 @@
+{
+  "version": "0",
+  "id": "e395e19c-94f0-9c95-b10d-40e30a3b80f8",
+  "detail-type": "CodeCommit Repository State Change",
+  "source": "aws.codecommit",
+  "account": "490924455933",
+  "time": "2022-01-02T21:49:41Z",
+  "region": "us-east-1",
+  "resources": [
+      "arn:aws:codecommit:us-east-1:490924455933:aws-devops-practice-server"
+  ],
+  "detail": {
+      "callerUserArn": "arn:aws:iam::490924455933:user/jose_villalobos",
+      "commitId": "76df9de062ad35bfd9b5eb748fe46867fb0befa9",
+      "event": "referenceCreated",
+      "referenceFullName": "refs/heads/dev",
+      "referenceName": "dev",
+      "referenceType": "branch",
+      "repositoryId": "3b87db72-e6a2-4cda-b0ac-7bcc1cc2fb3d",
+      "repositoryName": "aws-devops-practice-server"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "version": "0",
+  "id": "fde4182d-e57e-e4c5-d95c-4f75779ac927",
+  "detail-type": "CodeCommit Comment on Commit",
+  "source": "aws.codecommit",
+  "account": "490924455933",
+  "time": "2022-01-02T22:08:35Z",
+  "region": "us-east-1",
+  "resources": [
+      "arn:aws:codecommit:us-east-1:490924455933:aws-devops-practice-server"
+  ],
+  "detail": {
+      "afterCommitId": "76df9de062ad35bfd9b5eb748fe46867fb0befa9",
+      "beforeCommitId": "29ef729e1dd865232f6b20374dd2d9dd2f645aea",
+      "callerUserArn": "arn:aws:iam::490924455933:user/jose_villalobos",
+      "commentId": "dbb5fc9d-63d6-4cfc-9d05-3084528f7cfb:41b8cfe1-c5b1-4df7-94c9-a0dbcd081538",
+      "event": "commentOnCommitCreated",
+      "inReplyTo": "dbb5fc9d-63d6-4cfc-9d05-3084528f7cfb:c2d0e3dd-0476-4a2d-9f8c-91153a21213c",
+      "notificationBody": "A comment event occurred in the following AWS CodeCommit repository: aws-devops-practice-server. The user: arn:aws:iam::490924455933:user/jose_villalobos made a comment or replied to a comment. The comment was made on the following comment ID: dbb5fc9d-63d6-4cfc-9d05-3084528f7cfb:c2d0e3dd-0476-4a2d-9f8c-91153a21213c. For more information, go to the AWS CodeCommit console https://us-east-1.console.aws.amazon.com/codesuite/codecommit/repositories/aws-devops-practice-server/compare/29ef729e1dd865232f6b20374dd2d9dd2f645aea/.../76df9de062ad35bfd9b5eb748fe46867fb0befa9?region=us-east-1",
+      "repositoryId": "3b87db72-e6a2-4cda-b0ac-7bcc1cc2fb3d",
+      "repositoryName": "aws-devops-practice-server"
+  }
+}
